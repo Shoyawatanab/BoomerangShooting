@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WataLib::TPS_Camera" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAUABAAAIEGQFQAAAiAckUIAACBEAQhIJBCwEBAAKAA=</HashCode>
+      <FileName>Libraries\WataLib\Camera\TPS_Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WataLib::Animation" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJQAgEAAACCAAABAwAAACAAQBAAAAAAIAAIAQAEAAAE=</HashCode>
+      <FileName>Libraries\WataLib\Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAhCABAAoAFUAAAAgAAAAAAABBACAIARAAAQAwCBA=</HashCode>
+      <FileName>Game\Player\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBody" Collapsed="true">
+    <Position X="12" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>Game\Player\PlayerParts\PlayerBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHead" Collapsed="true">
+    <Position X="20" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAIQAAAAAA=</HashCode>
+      <FileName>Game\Player\PlayerParts\PlayerHead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLeftArm" Collapsed="true">
+    <Position X="15.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAgAAAQAAAAAA=</HashCode>
+      <FileName>Game\Player\PlayerParts\PlayerLeftArm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLeftFeet" Collapsed="true">
+    <Position X="14" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAABAAA=</HashCode>
+      <FileName>Game\Player\PlayerParts\PlayerLeftFeet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRightArm" Collapsed="true">
+    <Position X="18.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAABAAAAAEAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Player\PlayerParts\PlayerRightArm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRightFeet" Collapsed="true">
+    <Position X="17" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAACAAAQAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Player\PlayerParts\PlayerRightFeet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICamera" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Interface\ICamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICharacter" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAA=</HashCode>
+      <FileName>Game\Interface\ICharacter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICollisionObject" Collapsed="true">
+    <Position X="15.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAoAAEAAAAAAEAQAAAAAACAIAAAAAAABABA=</HashCode>
+      <FileName>Game\Interface\ICollisionObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IComposite" Collapsed="true">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Game\Interface\IComposite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICompositeRoot" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Interface\ICompositeRoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ILeaf" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Interface\ILeaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMoveObject" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Interface\IMoveObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INotMoveObject" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Interface\INotMoveObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IObject" Collapsed="true">
+    <Position X="15.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACCAAQAIAAAACAAAAAAAEggAIBAAAgAAAAA=</HashCode>
+      <FileName>Game\Interface\IObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IState" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAgAAAAAAAAEAAAAIBAAAAAAAAA=</HashCode>
+      <FileName>Game\Interface\IState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WataLib::Bounding" Collapsed="true">
+    <Position X="6.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQIAAAQAEAAg0ECgAACAAgwIACACEAAAJQAAEAAAAA=</HashCode>
+      <FileName>Libraries\WataLib\Bounding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyBottom" Collapsed="true">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyBottom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyHead" Collapsed="true">
+    <Position X="4.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAACQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyHead.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyLeftArm" Collapsed="true">
+    <Position X="6.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAIAAAAQAAAAIA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyLeftArm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyLeftArmJoint" Collapsed="true">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAIAAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyLeftArmJoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyLeftLeg" Collapsed="true">
+    <Position X="2.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyLeftLeg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyLeftShoulder" Collapsed="true">
+    <Position X="4.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyLeftShoulder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyLeftThigh" Collapsed="true">
+    <Position X="6.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAQAAAABA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyLeftThigh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyPelvis" Collapsed="true">
+    <Position X="8" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAIQAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyPelvis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyRightArm" Collapsed="true">
+    <Position X="2.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAECAAAAQAAAAAAAAAAAAAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyRightArm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyRightArmJoint" Collapsed="true">
+    <Position X="4.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyRightArmJoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyRightLeg" Collapsed="true">
+    <Position X="6.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyRightLeg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyRightShoulder" Collapsed="true">
+    <Position X="8" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAQAAACAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyRightShoulder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyRightThigh" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAABAAAAIAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyRightThigh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossEnemyTorso" Collapsed="true">
+    <Position X="4.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAEAAAA=</HashCode>
+      <FileName>Game\Enemys\BossEnemy\PlayerParts\BossEnemyTorso.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>

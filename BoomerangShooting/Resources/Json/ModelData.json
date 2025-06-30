@@ -1,0 +1,37 @@
+{
+	"Boomerang"               :  "Boomerang.cmo",
+
+	
+	"PlayerBody"              : "PlayerBody.cmo",
+	"PlayerHead"              : "PlayerHead.cmo",
+	"PlayerArm"               : "PlayerArm.cmo",
+	"PlayerFeet"              : "PlayerFeet.cmo",
+
+
+	"Floor"                   : "Floor.cmo",
+	"Sky"                     : "Sky.cmo",
+	"Wall"                    : "Wall.cmo",
+
+
+	"BossEnemyBottom"         : "BossEnemyBottom.cmo",
+	"BossEnemyHead"           :"BossEnemyHead.cmo",
+	"BossEnemyArm"            : "BossEnemyArm.cmo",
+	"BossEnemyArmJoint"       : "BossEnemyArmJoint.cmo",
+	"BossEnemyLeg"            : "BossEnemyLeg.cmo",
+	"BossEnemyShoulder"       : "BossEnemyShoulder.cmo",
+	"BossEnemyThigh"          : "BossEnemyThigh.cmo",
+	"BossEnemyPelvis"         : "BossEnemyPelvis.cmo",
+	"BossEnemyTorso"          : "BossEnemyTorso.cmo",
+
+
+	"BirdEnemyBody"           : "BirdEnemyBody.cmo",
+	"BirdEnemyFeather"        : "BirdEnemyFeather.cmo",
+
+
+	"BeamEnergyBall"          : "BeamEnergyBall.cmo",
+	"Barrier"                 :"Barrier.cmo",
+	"BeamChargeEffect"        : "BeamChargeEffect.cmo",
+	"Beam"                    : "Beam.cmo"
+
+
+}

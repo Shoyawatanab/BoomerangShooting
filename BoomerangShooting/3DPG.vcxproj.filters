@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>953a950d-8f23-49c6-b64f-5e4a032f2f13</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>1c4a63d8-8be7-4206-8e9b-c5c8bc272bb0</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{81e0afe9-ad4e-4f63-95a0-f6d4011481d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e07fced4-d323-4665-a6ef-0da58b0f46f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{582b0255-bd7f-4fbc-a35d-f8c13d2fbf14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{3c9cae57-ef8e-4d89-9ce8-daa682d325ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icon">
+      <UniqueIdentifier>{53043c45-2397-49b9-97e7-98faee0b0a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{4bb7f6ff-9803-4a2b-a0e8-bacbe656715d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{c309d520-e3d0-40ec-859f-98ab4d9a9fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MyLib">
+      <UniqueIdentifier>{a327e5ae-7623-4c97-9ac8-1d10ca95e8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Microsoft">
+      <UniqueIdentifier>{3ad90921-3d35-490e-837c-bc326a24aeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{644b32a7-7d84-4f61-a3f0-3872a592dcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Interface">
+      <UniqueIdentifier>{c60d6806-be2b-4485-978e-06c1b94adb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{80312223-ed30-471d-9607-88416c4a3775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\PlayerParts">
+      <UniqueIdentifier>{c5b8e225-7254-45f4-84fa-99f254de42b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\StageObject">
+      <UniqueIdentifier>{04bae400-aba3-4e83-9396-68f3a361c777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\WataLib">
+      <UniqueIdentifier>{fa91948e-83f4-42d6-8e83-318690a76305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys">
+      <UniqueIdentifier>{88b78d82-7b1b-4579-8390-e62d668d9eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders">
+      <UniqueIdentifier>{eace731f-6950-4eaf-b208-f2144eb85dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\Fade">
+      <UniqueIdentifier>{8cf56dcb-653e-4ec1-a778-74ec149b46a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\WataLib\Camera">
+      <UniqueIdentifier>{8438699a-68d2-46e2-a88a-0871a0f44290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon">
+      <UniqueIdentifier>{b42fba68-1e51-40d7-b28f-c4c2d5056ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\Boomerang">
+      <UniqueIdentifier>{dd1e3c2b-be8c-488c-a36b-cedf11ee182d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapon\Boomerang\State">
+      <UniqueIdentifier>{7861a57d-6082-4994-8b5b-dbbbeca38f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Observer">
+      <UniqueIdentifier>{fc512ba0-b662-4474-8e12-1206e31a8e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{19d00d96-e931-49d6-8785-17774de4d9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\State">
+      <UniqueIdentifier>{0b459963-f890-4646-8ca2-3d4c67ae7f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\UI">
+      <UniqueIdentifier>{857c307e-5bed-46ba-bef8-3a5147733614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy">
+      <UniqueIdentifier>{59426754-ee7b-4f05-bd38-312a2be49043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\Parts">
+      <UniqueIdentifier>{ab48316e-f860-4f48-aa39-0fdc12e7f0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect">
+      <UniqueIdentifier>{8a6d582e-d7af-4c29-a393-dda8d37984e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\BehaviorTree">
+      <UniqueIdentifier>{afd790d4-0640-4d96-9046-66776dc1e246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\Beam">
+      <UniqueIdentifier>{df4a0f57-46f6-4cb1-a94c-7533309b2b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BirdEnemy">
+      <UniqueIdentifier>{8008a92d-086b-497d-9e92-8b8f9622482c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\DamageVignette">
+      <UniqueIdentifier>{70f91aae-1b06-415c-9f38-fbad2584b07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BirdEnemy\State">
+      <UniqueIdentifier>{e7f2ea49-8424-430a-a402-1ca337fe57f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BirdEnemy\Parts">
+      <UniqueIdentifier>{904e7957-5aa8-4b55-8bb5-d8adf3ffa4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BirdEnemy\Beam">
+      <UniqueIdentifier>{0b847209-9874-4786-b285-bd53d7c40f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BirdEnemy\Beam\State">
+      <UniqueIdentifier>{b04a1512-aacc-4cc1-87dd-e1ccaa654b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\Particle">
+      <UniqueIdentifier>{4c86f6fd-0820-468c-964f-4a0d062e4de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\Particle">
+      <UniqueIdentifier>{f654d8f0-e244-4157-ab7a-6f91d6d2bfc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\BossBeam">
+      <UniqueIdentifier>{47e8e60b-9c7c-4dc2-957a-7195a73e5418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\BossBeam\Ball">
+      <UniqueIdentifier>{bf8cf894-0a2b-4fb5-a419-5d7c2950c4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities">
+      <UniqueIdentifier>{83a2da6f-fb9f-4ff8-8e7b-d870d910819e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\HitEffect">
+      <UniqueIdentifier>{9a4e628f-838f-4ee4-8025-0de823e3a5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\HitEffect">
+      <UniqueIdentifier>{4da07115-a637-4916-b509-caa8d2b19b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode">
+      <UniqueIdentifier>{c01fdd34-18a2-491e-8470-dd596d5a7080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\BeamAttack">
+      <UniqueIdentifier>{35cd7c3f-f298-42fd-96e2-6ad2c667c216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\PlayerState">
+      <UniqueIdentifier>{5be01b9c-e7f3-411a-8039-5c28aa4cb3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\BarrierDefense">
+      <UniqueIdentifier>{2e2d2085-3207-4612-b954-7a9de76060c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\Barrier">
+      <UniqueIdentifier>{af6896c3-5495-4983-992e-1ed297e3e171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\Barrier">
+      <UniqueIdentifier>{4c9d9ce8-fdc5-4b77-922b-49d8f49f3b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\Barrier\State">
+      <UniqueIdentifier>{6185aa96-21c2-4f0f-a67a-08afbd6108f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\JumpAttack">
+      <UniqueIdentifier>{1c93b868-7722-4f2f-8806-479b7a2b27ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\ChargeEffect">
+      <UniqueIdentifier>{40fa6420-6d52-4f53-877a-57c11e7258a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\ChargeEffect">
+      <UniqueIdentifier>{2be85931-96bf-421b-88fa-8a414a675f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\RushAttack">
+      <UniqueIdentifier>{764f82f3-457f-4793-8a76-105c75cf32ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\Number">
+      <UniqueIdentifier>{e7850e9c-6d83-4f26-8030-67b67d458cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sound">
+      <UniqueIdentifier>{98aefd83-9cf0-4aa6-8399-09c361b1e799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\Orientation">
+      <UniqueIdentifier>{0a9163ee-51d3-4523-af0f-f53494652f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\Walking">
+      <UniqueIdentifier>{38a6fa73-654c-4cc0-88cd-3ed308baaff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\SwingDownAttack">
+      <UniqueIdentifier>{e5ef2522-319a-4e67-b6c9-02021fb92a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemys\BossEnemy\ActionNode\Idleing">
+      <UniqueIdentifier>{a53cb1a5-62d9-448e-b358-4a6f327621a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameBase\Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Common\CommonResources.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Microsoft\DebugDraw.h">
+      <Filter>Libraries\Microsoft</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\DebugCamera.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\DebugString.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\GridFloor.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\InputManager.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\MemoryLeakDetector.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\TitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\PlayScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerParts\PlayerBody.h">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerParts\PlayerHead.h">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerParts\PlayerLeftArm.h">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerParts\PlayerRightArm.h">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerParts\PlayerLeftFeet.h">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\PlayerParts\PlayerRightFeet.h">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\StageObject\Floor.h">
+      <Filter>Game\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\Json.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\StageObject\Wall.h">
+      <Filter>Game\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Interface\IState.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\ICamera.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\Mouse.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IStateMachine.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\CSV.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Messenger\IObserver.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\UserInterface.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyBottom.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyHead.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftArm.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftArmJoint.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftLeg.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftShoulder.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftThigh.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyPelvis.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightArm.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightArmJoint.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightLeg.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightShoulder.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightThigh.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IEffect.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\ILeafNode.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IBehaviorNode.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\ICompositeNode.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\BinaryFile.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\StageSelectScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\Parts\BossEnemyTorso.h">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Messenger\Scene\SceneMessageType.h">
+      <Filter>Game\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\Shadow.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\StageObject\Sky.h">
+      <Filter>Game\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Params.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IActione.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MathUtil.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerBoomerangAttack.h">
+      <Filter>Game\Player\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerIdle.h">
+      <Filter>Game\Player\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\PlayerStateMachine.h">
+      <Filter>Game\Player\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IKeyBoardObserver.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\ResultScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\DamageCountUI.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\DrawNumber.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\GameResources.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\WataLib\Singleton.h">
+      <Filter>Libraries\WataLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemies\BossEnemy\BossEnemy.h">
+      <Filter>Game\Enemys\BossEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IBaseObserver.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Interface\IUIState.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase\Actor.h" />
+    <ClInclude Include="GameBase\Component.h" />
+    <ClInclude Include="GameBase\Component\Transform\Transform.h" />
+    <ClInclude Include="GameBase\Component\Components.h" />
+    <ClInclude Include="GameBase\Manager\RenderManager.h" />
+    <ClInclude Include="GameBase\Component\Model\ModelComponent.h" />
+    <ClInclude Include="Game\Stage\StageFactory.h" />
+    <ClInclude Include="Game\Stage\StageObjects.h" />
+    <ClInclude Include="GameBase\Component\Collider\ColliderComponent.h" />
+    <ClInclude Include="GameBase\Component\Rigidbody\RigidbodyComponent.h" />
+    <ClInclude Include="GameBase\Manager\RigidbodyManager.h" />
+    <ClInclude Include="GameBase\Managers.h" />
+    <ClInclude Include="GameBase\Scene\Scene.h" />
+    <ClInclude Include="Game\Player\Player.h" />
+    <ClInclude Include="Game\Player\PlayerParts.h" />
+    <ClInclude Include="Game\Player\PlayerPartss.h" />
+    <ClInclude Include="GameBase\Camera\Camera.h" />
+    <ClInclude Include="Game\Camera\PayScene\PlaySceneCamera.h" />
+    <ClInclude Include="GameBase\Screen.h" />
+    <ClInclude Include="GameBase\StateMachine\StateMachine.h" />
+    <ClInclude Include="Game\Player\State\PlayerStates.h" />
+    <ClInclude Include="Game\Camera\PayScene\PaySceneCameraState\PlaySceneCameraTPS.h" />
+    <ClInclude Include="Game\Camera\PayScene\PlaySceneCameraStateMachine.h" />
+    <ClInclude Include="Game\Camera\PayScene\PaySceneCameraStates.h" />
+    <ClInclude Include="Game\Player\PlayerUsually.h" />
+    <ClInclude Include="GameBase\Manager\CollisionManager.h" />
+    <ClInclude Include="GameBase\Component\Collider\DetectionCollision2.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BossEnemyParts.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BossEnemyPartss.h" />
+    <ClInclude Include="GameBase\Component\UI\ImageComponent.h" />
+    <ClInclude Include="GameBase\UI\Button.h" />
+    <ClInclude Include="GameBase\UI\Image.h" />
+    <ClInclude Include="GameBase\UI\Canvas\Canvas.h" />
+    <ClInclude Include="GameBase\UI\Canvas\ScreenSpaceOverlayCanvas.h" />
+    <ClInclude Include="Game\UI\PlayScene\Canvas\PlaySceneScreenSpaceOverlayCanvas.h" />
+    <ClInclude Include="Game\UI\PlayScene\PlayerHp\PlayerHp.h" />
+    <ClInclude Include="GameBase\Component\UI\ButtonComponent.h" />
+    <ClInclude Include="GameBase\Shader\ShaderFactory.h" />
+    <ClInclude Include="Game\Camera\TitleScene\TitleSceneCamera.h" />
+    <ClInclude Include="GameBase\Component\Animation\AnimatorComponent.h" />
+    <ClInclude Include="GameBase\Model\ModelPartsBase.h" />
+    <ClInclude Include="Game\Player\Animation\PlayerAnimationController.h" />
+    <ClInclude Include="GameBase\Animation\AnimationController.h" />
+    <ClInclude Include="GameBase\Animation\Animator.h" />
+    <ClInclude Include="Game\Player\Model\PlayerModel.h" />
+    <ClInclude Include="GameBase\Animation\Animation.h" />
+    <ClInclude Include="Game\Weapon\Boomerang\Boomerang.h" />
+    <ClInclude Include="Game\Weapon\Boomerang\State\BoomerangStateMachine.h" />
+    <ClInclude Include="Game\Weapon\Boomerang\State\Boomerangidle.h" />
+    <ClInclude Include="Game\Weapon\Boomerang\State\BoomerangStates.h" />
+    <ClInclude Include="Game\Weapon\Boomerang\State\BoomerangThrow.h" />
+    <ClInclude Include="Game\Weapon\Boomerang\State\BoomerangGetReady.h" />
+    <ClInclude Include="Game\Messenger\Scene\SceneMessenger.h" />
+    <ClInclude Include="Game\Player\State\PlayerBoomerangGetReady.h" />
+    <ClInclude Include="GameBase\Common\Commons.h" />
+    <ClInclude Include="GameBase\BehaviorTree\ActionNode.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BehavirTree\BossBehaviorTree.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BehavirTree\Conditions.h" />
+    <ClInclude Include="GameBase\BehaviorTree\DecoratorNode.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BehavirTree\ExecutionNode.h" />
+    <ClInclude Include="GameBase\BehaviorTree\Root.h" />
+    <ClInclude Include="GameBase\BehaviorTree\SelectorNode.h" />
+    <ClInclude Include="GameBase\BehaviorTree\SequenceNode.h" />
+    <ClInclude Include="GameBase\BehaviorTree\BehaviorTrees.h" />
+    <ClInclude Include="Game\Weapon\WeaponManager.h" />
+    <ClInclude Include="Game\Weapon\WeaponBase.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Animation\BossAnimationController.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Model\BossEnemyModel.h" />
+    <ClInclude Include="GameBase\Model\ModelBase.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BossEnemyActionManager.h" />
+    <ClInclude Include="GameBase\Action\ActionController.h" />
+    <ClInclude Include="GameBase\Action\ActionManager.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BossEnemyActions.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\JumpAttack\BossJumpAttackJump.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\JumpAttack\BossJumpAttackActionController.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\JumpAttack\BossJumpAttackCharge.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Orientation\OrientationAction.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\SwingDown\SwingDownAttackActionController.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\SwingDown\SwingDownAttackRaisePhase.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\SwingDown\SwingDownAttackSwingPhase.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Idle\IdleingAction.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Idle\IdleingActionComtroller.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Walk\WalkAction.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Walk\WalkActionComtroller.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackActionController.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackCharge.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackEnd.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackPreliminaryAction.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackShot.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BossBeam\BossBeam.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BossBeam\BossBeamEnergyBall.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\BossBeam\BossBeamRays.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Orientation\OrientationActionController.h" />
+    <ClInclude Include="Game\UI\PlayScene\TargetMarker\TargetMarker.h" />
+    <ClInclude Include="Game\UI\PlayScene\PlaySceneUIs.h" />
+    <ClInclude Include="Game\Enemies\EnemyManager.h" />
+    <ClInclude Include="Game\Enemies\EnemyBase.h" />
+    <ClInclude Include="Game\Enemies\Enemys.h" />
+    <ClInclude Include="Game\UI\PlayScene\BoomerangCount\BoomerangCount.h" />
+    <ClInclude Include="Game\UI\PlayScene\DamageCount\DamageCount.h" />
+    <ClInclude Include="Game\UI\PlayScene\DamageCount\DamageCountFactory.h" />
+    <ClInclude Include="Game\UI\NumberUI.h" />
+    <ClInclude Include="Libraries\Easing.h" />
+    <ClInclude Include="Game\UI\PlayScene\BossHp\BossHp.h" />
+    <ClInclude Include="Game\Camera\PayScene\PaySceneCameraState\PlaySceneEnemyTargetCamera.h" />
+    <ClInclude Include="Game\UI\TitleScene\TitleSceneUIs.h" />
+    <ClInclude Include="Game\UI\TitleScene\Canvas\TitleSceneScreenSpaceOverlayCanvas.h" />
+    <ClInclude Include="Game\UI\TitleScene\ExitButton\ExitButton.h" />
+    <ClInclude Include="GameBase\Manager\UIManager.h" />
+    <ClInclude Include="Game\Fade\FadeManager.h" />
+    <ClInclude Include="Game\Fade\IFade.h" />
+    <ClInclude Include="Game\Fade\FadeIn\NormalFadeIn.h" />
+    <ClInclude Include="Game\Fade\FadeKindss.h" />
+    <ClInclude Include="Game\Fade\FadeOut\NormalFadeOut.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\BirdEnemy.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Model\BirdEnemyModel.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\BirdEnemyParts.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Parts\BirdEnemyBody.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\BirdEnemyPartss.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Parts\BirdEnemyLeftFeather.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Parts\BirdEnemyRightFeather.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\State\BirdEnemyStateMachine.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\State\BirdEnemyStates.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\State\BirdEnemyIdle.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\State\BirdEnemyMove.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\State\BirdEnemyBeamAttack.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Bullet\BirdEnemyBullet.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletStateMachine.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletIdle.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletStates.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletCharge.h" />
+    <ClInclude Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletShot.h" />
+    <ClInclude Include="Game\UI\PlayScene\PlayerDamageEffect\PlayerDamageEffect.h" />
+    <ClInclude Include="Game\Messenger\Global\GlobalMessenger.h" />
+    <ClInclude Include="Game\Messenger\Global\GlobalMeesageType.h" />
+    <ClInclude Include="Game\Messenger\Global\GlobalMessages.h" />
+    <ClInclude Include="Game\Messenger\Scene\SceneMessages.h" />
+    <ClInclude Include="Game\GlobalGameData.h" />
+    <ClInclude Include="Game\UI\SelectScene\Canvas\SelectSceneScreenSpaceOverlayCanvas.h" />
+    <ClInclude Include="Game\UI\SelectScene\SelectSceneUIs.h" />
+    <ClInclude Include="Game\Camera\SelectScene\SelectSceneCamera.h" />
+    <ClInclude Include="Game\UI\SelectScene\BackGraund\SelectSceneBackGraund.h" />
+    <ClInclude Include="Game\UI\SelectScene\StageOneButton\StageOneButton.h" />
+    <ClInclude Include="Game\UI\SelectScene\StageTwoButton\StageTwoButton.h" />
+    <ClInclude Include="Game\UI\TitleScene\PlayButton\PlayButton.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Beam\BossEnemyBeam.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Beam\Rays\BossEnemyBeamRays.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Beam\EnergyBall\BossEnemyBeamEnergyBall.h" />
+    <ClInclude Include="Game\UI\PlayScene\GameOver\GameOverUI.h" />
+    <ClInclude Include="Game\UI\PlayScene\GameOver\BackGraund\GameOverBackGraund.h" />
+    <ClInclude Include="Game\UI\PlayScene\GameOver\RetryButton\RetryButton.h" />
+    <ClInclude Include="Game\UI\PlayScene\GameOver\TitleButton\TitleButton.h" />
+    <ClInclude Include="Game\Camera\PayScene\PaySceneCameraState\PlaySceneCameraStop.h" />
+    <ClInclude Include="Game\Effect\Explosiion\Explosiion.h" />
+    <ClInclude Include="Game\Effect\EffectFactory.h" />
+    <ClInclude Include="Game\Effect\Effects.h" />
+    <ClInclude Include="GameBase\Component\Effect\EffectComponent.h" />
+    <ClInclude Include="GameBase\Component\RoundShadow\RoundShadowComponent.h" />
+    <ClInclude Include="GameBase\Manager\SoundManager.h" />
+    <ClInclude Include="GameBase\Component\Sound\SoundComponent.h" />
+    <ClInclude Include="Game\Sound\PlayScene\PlaySceneSound.h" />
+    <ClInclude Include="Game\Camera\Normal\NormalCamera.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Death\BossDeathActionComtroller.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Death\BossDeathAction.h" />
+    <ClInclude Include="Game\Enemies\BossEnemy\Action\Death\BossDeathEndAction.h" />
+    <ClInclude Include="Game\Camera\Result\ResultCamera.h" />
+    <ClInclude Include="Game\UI\ResultScene\Canvas\ResutlSceneScreenSpaceOverlayCanvas.h" />
+    <ClInclude Include="Game\UI\ResultScene\BackGraund\ResultSceneBackGraund.h" />
+    <ClInclude Include="Game\UI\ResultScene\ResultSceneUIs.h" />
+    <ClInclude Include="Game\UI\ResultScene\RetryButton\ResultRetryButton.h" />
+    <ClInclude Include="Game\UI\ResultScene\TitleButton\ResultTitleButton.h" />
+    <ClInclude Include="Game\UI\ResultScene\Time\ResuktTime.h" />
+    <ClInclude Include="Game\UI\ResultScene\Time\TimeSeparator.h" />
+    <ClInclude Include="Game\Effect\BossChargeEffect\BossChargeEffect.h" />
+    <ClInclude Include="Game\Effect\ParticleUtility.h" />
+    <ClInclude Include="Game\Effect\Particle\Particle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameBase\Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase\Common\CommonResources.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Microsoft\DebugDraw.cpp">
+      <Filter>Libraries\Microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\DebugCamera.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\DebugString.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\GridFloor.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\InputManager.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\TitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\PlayScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneManager.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerParts\PlayerBody.cpp">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerParts\PlayerHead.cpp">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerParts\PlayerLeftArm.cpp">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerParts\PlayerRightArm.cpp">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerParts\PlayerLeftFeet.cpp">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\PlayerParts\PlayerRightFeet.cpp">
+      <Filter>Game\Player\PlayerParts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\StageObject\Floor.cpp">
+      <Filter>Game\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\Json.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\StageObject\Wall.cpp">
+      <Filter>Game\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\Mouse.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\CSV.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\UserInterface.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\BossEnemy.cpp">
+      <Filter>Game\Enemys\BossEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyBottom.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyHead.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftArm.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftArmJoint.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftLeg.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftShoulder.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyLeftThigh.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyPelvis.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightArm.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightArmJoint.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightLeg.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightShoulder.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyRightThigh.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemies\BossEnemy\Parts\BossEnemyTorso.cpp">
+      <Filter>Game\Enemys\BossEnemy\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\BinaryFile.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\StageSelectScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\Shadow.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\StageObject\Sky.cpp">
+      <Filter>Game\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Params.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerBoomerangAttack.cpp">
+      <Filter>Game\Player\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerIdle.cpp">
+      <Filter>Game\Player\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\PlayerStateMachine.cpp">
+      <Filter>Game\Player\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\ResultScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\DamageCountUI.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\WataLib\DrawNumber.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase\GameResources.cpp">
+      <Filter>Libraries\WataLib</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase\Actor.cpp" />
+    <ClCompile Include="GameBase\Component.cpp" />
+    <ClCompile Include="GameBase\Component\Transform\Transform.cpp" />
+    <ClCompile Include="GameBase\Manager\RenderManager.cpp" />
+    <ClCompile Include="GameBase\Component\Model\ModelComponent.cpp" />
+    <ClCompile Include="Game\Stage\StageFactory.cpp" />
+    <ClCompile Include="GameBase\Component\Collider\ColliderComponent.cpp" />
+    <ClCompile Include="GameBase\Component\Rigidbody\RigidbodyComponent.cpp" />
+    <ClCompile Include="GameBase\Manager\RigidbodyManager.cpp" />
+    <ClCompile Include="GameBase\Scene\Scene.cpp" />
+    <ClCompile Include="Game\Player\Player.cpp" />
+    <ClCompile Include="Game\Player\PlayerParts.cpp" />
+    <ClCompile Include="GameBase\Camera\Camera.cpp" />
+    <ClCompile Include="Game\Camera\PayScene\PlaySceneCamera.cpp" />
+    <ClCompile Include="GameBase\StateMachine\StateMachine.cpp" />
+    <ClCompile Include="Game\Camera\PayScene\PaySceneCameraState\PlaySceneCameraTPS.cpp" />
+    <ClCompile Include="Game\Camera\PayScene\PlaySceneCameraStateMachine.cpp" />
+    <ClCompile Include="Game\Player\PlayerUsually.cpp" />
+    <ClCompile Include="GameBase\Manager\CollisionManager.cpp" />
+    <ClCompile Include="GameBase\Component\Collider\DetectionCollision2.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BossEnemyParts.cpp" />
+    <ClCompile Include="GameBase\Component\UI\ImageComponent.cpp" />
+    <ClCompile Include="GameBase\UI\Button.cpp" />
+    <ClCompile Include="GameBase\UI\Image.cpp" />
+    <ClCompile Include="GameBase\UI\Canvas\Canvas.cpp" />
+    <ClCompile Include="GameBase\UI\Canvas\ScreenSpaceOverlayCanvas.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\Canvas\PlaySceneScreenSpaceOverlayCanvas.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\PlayerHp\PlayerHp.cpp" />
+    <ClCompile Include="GameBase\Component\UI\ButtonComponent.cpp" />
+    <ClCompile Include="GameBase\Shader\ShaderFactory.cpp" />
+    <ClCompile Include="Game\Camera\TitleScene\TitleSceneCamera.cpp" />
+    <ClCompile Include="GameBase\Component\Animation\AnimatorComponent.cpp" />
+    <ClCompile Include="GameBase\Model\ModelPartsBase.cpp" />
+    <ClCompile Include="Game\Player\Animation\PlayerAnimationController.cpp" />
+    <ClCompile Include="GameBase\Animation\AnimationController.cpp" />
+    <ClCompile Include="GameBase\Animation\Animator.cpp" />
+    <ClCompile Include="Game\Player\Model\PlayerModel.cpp" />
+    <ClCompile Include="GameBase\Animation\Animation.cpp" />
+    <ClCompile Include="Game\Weapon\Boomerang\Boomerang.cpp" />
+    <ClCompile Include="Game\Weapon\Boomerang\State\BoomerangStateMachine.cpp" />
+    <ClCompile Include="Game\Weapon\Boomerang\State\Boomerangidle.cpp" />
+    <ClCompile Include="Game\Weapon\Boomerang\State\BoomerangThrow.cpp" />
+    <ClCompile Include="Game\Weapon\Boomerang\State\BoomerangGetReady.cpp" />
+    <ClCompile Include="Game\Messenger\Scene\SceneMessenger.cpp" />
+    <ClCompile Include="Game\Player\State\PlayerBoomerangGetReady.cpp" />
+    <ClCompile Include="GameBase\BehaviorTree\ActionNode.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BehavirTree\BossBehaviorTree.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BehavirTree\Conditions.cpp" />
+    <ClCompile Include="GameBase\BehaviorTree\DecoratorNode.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BehavirTree\ExecutionNode.cpp" />
+    <ClCompile Include="GameBase\BehaviorTree\Root.cpp" />
+    <ClCompile Include="GameBase\BehaviorTree\SelectorNode.cpp" />
+    <ClCompile Include="GameBase\BehaviorTree\SequenceNode.cpp" />
+    <ClCompile Include="Game\Weapon\WeaponManager.cpp" />
+    <ClCompile Include="Game\Weapon\WeaponBase.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Animation\BossAnimationController.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Model\BossEnemyModel.cpp" />
+    <ClCompile Include="GameBase\Model\ModelBase.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\BossEnemyActionManager.cpp" />
+    <ClCompile Include="GameBase\Action\ActionController.cpp" />
+    <ClCompile Include="GameBase\Action\ActionManager.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\JumpAttack\BossJumpAttackActionController.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\JumpAttack\BossJumpAttackCharge.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\JumpAttack\BossJumpAttackJump.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Orientation\OrientationAction.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\SwingDown\SwingDownAttackActionController.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\SwingDown\SwingDownAttackRaisePhase.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\SwingDown\SwingDownAttackSwingPhase.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Idle\IdleingAction.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Idle\IdleingActionComtroller.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Walk\WalkAction.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Walk\WalkActionComtroller.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackActionController.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackCharge.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackEnd.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackPreliminaryAction.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\BeamAttack\BossBeamAttackShot.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BossBeam\BossBeam.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BossBeam\BossBeamEnergyBall.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\BossBeam\BossBeamRays.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Orientation\OrientationActionController.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\TargetMarker\TargetMarker.cpp" />
+    <ClCompile Include="Game\Enemies\EnemyManager.cpp" />
+    <ClCompile Include="Game\Enemies\EnemyBase.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\BoomerangCount\BoomerangCount.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\DamageCount\DamageCount.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\DamageCount\DamageCountFactory.cpp" />
+    <ClCompile Include="Game\UI\NumberUI.cpp" />
+    <ClCompile Include="Libraries\Easing.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\BossHp\BossHp.cpp" />
+    <ClCompile Include="Game\Camera\PayScene\PaySceneCameraState\PlaySceneEnemyTargetCamera.cpp" />
+    <ClCompile Include="Game\UI\TitleScene\Canvas\TitleSceneScreenSpaceOverlayCanvas.cpp" />
+    <ClCompile Include="Game\UI\TitleScene\ExitButton\ExitButton.cpp" />
+    <ClCompile Include="GameBase\Manager\UIManager.cpp" />
+    <ClCompile Include="Game\Fade\FadeManager.cpp" />
+    <ClCompile Include="Game\Fade\FadeIn\NormalFadeIn.cpp" />
+    <ClCompile Include="Game\Fade\FadeOut\NormalFadeInOut.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\BirdEnemy.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Model\BirdEnemyModel.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\BirdEnemyParts.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Parts\BirdEnemyBody.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Parts\BirdEnemyLeftFeather.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Parts\BirdEnemyRightFeather.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\State\BirdEnemyStateMachine.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\State\BirdEnemyIdle.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\State\BirdEnemyMove.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\State\BirdEnemyBeamAttack.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Bullet\BirdEnemyBullet.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletStateMachine.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletIdle.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletCharge.cpp" />
+    <ClCompile Include="Game\Enemies\BirdEnemy\Bullet\State\BirdEnemyBulletShot.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\PlayerDamageEffect\PlayerDamageEffect.cpp" />
+    <ClCompile Include="Game\Messenger\Global\GlobalMessenger.cpp" />
+    <ClCompile Include="Game\GlobalGameData.cpp" />
+    <ClCompile Include="Game\UI\SelectScene\Canvas\SelectSceneScreenSpaceOverlayCanvas.cpp" />
+    <ClCompile Include="Game\Camera\SelectScene\SelectSceneCamera.cpp" />
+    <ClCompile Include="Game\UI\SelectScene\BackGraund\SelectSceneBackGraund.cpp" />
+    <ClCompile Include="Game\UI\SelectScene\StageOneButton\StageOneButton.cpp" />
+    <ClCompile Include="Game\UI\SelectScene\StageTwoButton\StageTwoButton.cpp" />
+    <ClCompile Include="Game\UI\TitleScene\PlayButton\PlayButton.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Beam\BossEnemyBeam.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Beam\Rays\BossEnemyBeamRays.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Beam\EnergyBall\BossEnemyBeamEnergyBall.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\GameOver\GameOverUI.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\GameOver\BackGraund\GameOverBackGraund.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\GameOver\RetryButton\RetryButton.cpp" />
+    <ClCompile Include="Game\UI\PlayScene\GameOver\TitleButton\TitleButton.cpp" />
+    <ClCompile Include="Game\Camera\PayScene\PaySceneCameraState\PlaySceneCameraStop.cpp" />
+    <ClCompile Include="Game\Effect\Explosiion\Explosiion.cpp" />
+    <ClCompile Include="Game\Effect\EffectFactory.cpp" />
+    <ClCompile Include="GameBase\Component\Effect\EffectComponent.cpp" />
+    <ClCompile Include="GameBase\Component\RoundShadow\RoundShadowComponent.cpp" />
+    <ClCompile Include="GameBase\Manager\SoundManager.cpp" />
+    <ClCompile Include="GameBase\Component\Sound\SoundComponent.cpp" />
+    <ClCompile Include="Game\Sound\PlayScene\PlaySceneSound.cpp" />
+    <ClCompile Include="Game\Camera\Normal\NormalCamera.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Death\BossDeathActionComtroller.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Death\BossDeathAction.cpp" />
+    <ClCompile Include="Game\Enemies\BossEnemy\Action\Death\BossDeathEndAction.cpp" />
+    <ClCompile Include="Game\Camera\Result\ResultCamera.cpp" />
+    <ClCompile Include="Game\UI\ResultScene\Canvas\ResutlSceneScreenSpaceOverlayCanvas.cpp" />
+    <ClCompile Include="Game\UI\ResultScene\BackGraund\ResultceneBackGraund.cpp" />
+    <ClCompile Include="Game\UI\ResultScene\RetryButton\ResultRetryButton.cpp" />
+    <ClCompile Include="Game\UI\ResultScene\TitleButton\ResultTitleButton.cpp" />
+    <ClCompile Include="Game\UI\ResultScene\Time\ResuktTime.cpp" />
+    <ClCompile Include="Game\UI\ResultScene\Time\TimeSeparator.cpp" />
+    <ClCompile Include="Game\Effect\BossChargeEffect\BossChargeEffect.cpp" />
+    <ClCompile Include="Game\Effect\ParticleUtility.cpp" />
+    <ClCompile Include="Game\Effect\Particle\Particle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Game\Shaders\Fade\Fade.hlsli">
+      <Filter>Game\Shaders\Fade</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Game\Shaders\UI\UI.hlsli">
+      <Filter>Game\Shaders\UI</Filter>
+    </None>
+    <None Include="Game\Shaders\DamageVignette\DamageVignette.hlsli">
+      <Filter>Game\Shaders\DamageVignette</Filter>
+    </None>
+    <None Include="Game\Shaders\Particle\Particle.hlsli">
+      <Filter>Game\Shaders\Particle</Filter>
+    </None>
+    <None Include="Game\Shaders\BossBeam\BeamRays.hlsli">
+      <Filter>Game\Shaders\BossBeam</Filter>
+    </None>
+    <None Include="Game\Shaders\BossBeam\BeamEnergyBall.hlsli">
+      <Filter>Game\Shaders\BossBeam\Ball</Filter>
+    </None>
+    <None Include="Game\Shaders\HitEffect\CircleParticle.hlsli">
+      <Filter>Game\Shaders\HitEffect</Filter>
+    </None>
+    <None Include="Game\Shaders\Barrier\Barrier.hlsli">
+      <Filter>Game\Shaders\Barrier</Filter>
+    </None>
+    <None Include="Game\Shaders\ChargeEffect\ChargeEffect.hlsli">
+      <Filter>Game\Shaders\ChargeEffect</Filter>
+    </None>
+    <None Include="Game\Shaders\Number\Number.hlsli">
+      <Filter>Game\Shaders\Number</Filter>
+    </None>
+    <None Include="Game\Shaders\GameOver\GameOver.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Game\Shaders\Fade\FadeGS.hlsl">
+      <Filter>Game\Shaders\Fade</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Fade\FadeVS.hlsl">
+      <Filter>Game\Shaders\Fade</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Fade\NormalFadeInPS.hlsl">
+      <Filter>Game\Shaders\Fade</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Fade\NormalFadeOutPS.hlsl">
+      <Filter>Game\Shaders\Fade</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\UI\UIGS.hlsl">
+      <Filter>Game\Shaders\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\UI\UIPS.hlsl">
+      <Filter>Game\Shaders\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\UI\UIVS.hlsl">
+      <Filter>Game\Shaders\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\DamageVignette\DamageVignetteGS.hlsl">
+      <Filter>Game\Shaders\DamageVignette</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\DamageVignette\DamageVignettePS.hlsl">
+      <Filter>Game\Shaders\DamageVignette</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\DamageVignette\DamageVignetteVS.hlsl">
+      <Filter>Game\Shaders\DamageVignette</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Particle\ParticleGS.hlsl">
+      <Filter>Game\Shaders\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Particle\ParticlePS.hlsl">
+      <Filter>Game\Shaders\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Particle\ParticleVS.hlsl">
+      <Filter>Game\Shaders\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\BossBeam\BeamRaysPS.hlsl">
+      <Filter>Game\Shaders\BossBeam</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\BossBeam\BeamRaysVS.hlsl">
+      <Filter>Game\Shaders\BossBeam</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\BossBeam\BeamEnergyBallPS.hlsl">
+      <Filter>Game\Shaders\BossBeam\Ball</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\BossBeam\BeamEnergyBallVS.hlsl">
+      <Filter>Game\Shaders\BossBeam\Ball</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\HitEffect\CircleParticlePS.hlsl">
+      <Filter>Game\Shaders\HitEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\HitEffect\CircleParticleVS.hlsl">
+      <Filter>Game\Shaders\HitEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Barrier\BarrierPS.hlsl">
+      <Filter>Game\Shaders\Barrier</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Barrier\BarrierVS.hlsl">
+      <Filter>Game\Shaders\Barrier</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\ChargeEffect\ChargeEffectPS.hlsl">
+      <Filter>Game\Shaders\ChargeEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\ChargeEffect\ChargeEffectVS.hlsl">
+      <Filter>Game\Shaders\ChargeEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Number\NumberGS.hlsl">
+      <Filter>Game\Shaders\Number</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Number\NumberPS.hlsl">
+      <Filter>Game\Shaders\Number</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Number\NumberVS.hlsl">
+      <Filter>Game\Shaders\Number</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\ParticleCS.hlsl" />
+    <FxCompile Include="Game\Shaders\SpritePS.hlsl" />
+    <FxCompile Include="Game\Shaders\SpriteVS.hlsl" />
+    <FxCompile Include="Game\Shaders\GameOver\GameOverVS.hlsl" />
+    <FxCompile Include="Game\Shaders\GameOver\GameOverPS.hlsl" />
+    <FxCompile Include="Game\Shaders\GameOver\GameOverGS.hlsl" />
+  </ItemGroup>
+</Project>

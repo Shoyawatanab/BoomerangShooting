@@ -1,0 +1,85 @@
+{
+	"AnimationType" : "Move",
+	"AnimationTime"  : 4.0,
+	"AnimationSpeed" : 1.0,
+	"Loop": true,
+	"KeyFrame" :
+	[
+		{
+			"FreamTime" : 1.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftShoulder",
+					"Rotation" :{ 
+						"x" : 45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftThigh",
+					"Rotation" :{ 
+						"x" : 20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightThigh",
+					"Rotation" :{ 
+						"x" : -20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		},
+		{
+			"FreamTime" : 3.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftShoulder",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : 45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftThigh",
+					"Rotation" :{ 
+						"x" : -20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightThigh",
+					"Rotation" :{ 
+						"x" : 20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"BGM" :
+	[
+		{
+			"Play"               : "maou_game_dangeon08.mp3"
+		}
+	],
+	"SE" :
+	[
+		{
+			"BoomerangHit"               : "打撃1.mp3",
+			"Explosion"                        : "打撃3.mp3"
+		}
+
+	]
+	
+}

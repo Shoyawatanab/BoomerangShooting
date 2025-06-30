@@ -1,0 +1,32 @@
+{
+	"Logo"               : "Logo.png",
+	"PLAY"               : "PLAY.png",
+	"EXIT"               : "EXIT.png",
+	"Tutorial"           : "Tutorial.png",
+	"Stage1"             : "Stage1.png",
+	"BackGraund"         : "BackGraund.png",
+	"Tex"                : "Tex.png",
+	"TargetMarker"       : "TargetMarker.png",
+	"DamageBackGraund"   : "DamageBackGraund.png",
+	"ClearBackGraund"    : "ClearBackGraund.png",
+	"GameOver"           : "GameOver.png",
+	"ClearTitleTex"      : "ClearTitleTex.png",
+	"ClearReTryTex"      : "ClearReTryTex.png",
+	"ChangeUI"           : "ChangeUI.png",
+	"DecisionUI"         : "DecisionUI.png",
+	"Arrow"              : "Arrow.png",
+	"BossHPBase"         : "BossHPBase.png",
+	"EnemyHP"            : "EnemyHP.png",
+	"EnemyName"          : "EnemyName.png",
+	"HP"                 : "HP.png",
+	"BoomerangUI"        : "BoomerangUI.png",
+	"F"                  : "F.png",
+	"RightThrow"         : "RightThrow.png",
+	"FrontThrow"         : "FrontThrow.png",
+	"LeftThrow"          : "LeftThrow.png",
+	"da"                 : "da.png"
+
+	
+
+
+}

@@ -1,0 +1,39 @@
+#pragma once
+#include "GameBase/Interface/IState.h"
+
+class BirdEnemyStateMachine;
+class BirdEnemy;
+
+
+class BirdEnemyMove :public IState
+{
+public:
+	//コンストラク
+	BirdEnemyMove(BirdEnemyStateMachine* stateMachine, BirdEnemy* birdEnemy);
+	//デストラクタ
+	~BirdEnemyMove() override;
+
+	// 更新する
+	void Update(const float& deltaTime) override;
+	//状態に入った時
+	void Enter() override;
+	//状態を抜けた時
+	void Exit() override;
+
+private:
+	//鳥敵
+	BirdEnemy* m_birdEnemy;
+	//ステートマシン
+	BirdEnemyStateMachine* m_stateMahine;
+
+
+	//初めの座標
+	DirectX::SimpleMath::Vector3 m_startPosition;
+	//終わりの座標
+	DirectX::SimpleMath::Vector3 m_endPosition;
+	//時間
+	float m_time;
+
+};
+
+#pragma once
