@@ -1,0 +1,366 @@
+{
+	"AnimationType" : "JumpCharge",
+	"AnimationTime"  : 10.0,
+	"AnimationSpeed" : 1.0,
+	"Loop": false,
+	"KeyFrame" :
+	[
+		{
+			"FreamTime" : 1.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftShoulder",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftArmJoint",
+					"Rotation" :{ 
+						"x" : -30.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftArm",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArmJoint",
+					"Rotation" :{ 
+						"x" : -30.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArm",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Torso",
+					"Position" : {
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					},
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Bottom",
+					"Rotation" :{ 
+						"x" : 30.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Pelvis",
+					"Position" : {
+						"x" : 0.0,
+						"y" : -0.5,
+						"z" : 0.0
+					},
+					"Rotation" :{ 
+						"x" : -10.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftThigh",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftLeg",
+					"Rotation" :{ 
+						"x" : 20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightThigh",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightLeg",
+					"Rotation" :{ 
+						"x" : 20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		},
+		{
+			"FreamTime" : 1.5 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftShoulder",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftArmJoint",
+					"Rotation" :{ 
+						"x" : -30.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftArm",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArmJoint",
+					"Rotation" :{ 
+						"x" : -30.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArm",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Torso",
+					"Position" : {
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					},
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Bottom",
+					"Rotation" :{ 
+						"x" : 30.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Pelvis",
+					"Position" : {
+						"x" : 0.0,
+						"y" : -0.5,
+						"z" : 0.0
+					},
+					"Rotation" :{ 
+						"x" : -10.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftThigh",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftLeg",
+					"Rotation" :{ 
+						"x" : 20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightThigh",
+					"Rotation" :{ 
+						"x" : -45.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightLeg",
+					"Rotation" :{ 
+						"x" : 20.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		},
+		{
+			"FreamTime" : 2.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftShoulder",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftArmJoint",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftArm",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArmJoint",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArm",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Torso",
+					"Position" : {
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					},
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Bottom",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "Pelvis",
+					"Position" : {
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					},
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftThigh",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "LeftLeg",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightThigh",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightLeg",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		}
+	]
+}

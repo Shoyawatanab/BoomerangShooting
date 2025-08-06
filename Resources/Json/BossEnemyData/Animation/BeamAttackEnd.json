@@ -1,0 +1,37 @@
+{
+	"AnimationType" : "BeamAttackEnd",
+	"AnimationTime"  : 2.0,
+	"AnimationSpeed" : 1.0,
+	"Loop": false,
+	"KeyFrame" :
+	[
+		{
+			"FreamTime" : 0.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : -70.0,
+						"y" : 5.0,
+						"z" : 0.0
+					}
+				}
+			]
+		},
+		{
+			"FreamTime" : 2.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "RightShoulder",
+					"Rotation" :{ 
+						"x" : 0.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		}
+	]
+}

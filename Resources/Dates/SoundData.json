@@ -1,0 +1,24 @@
+
+{
+	"BGM" :
+	[
+		{
+			"Play"               : "maou_game_dangeon08.mp3",
+			"Title"              :"Title.mp3",
+			"Stage1"             :"Stage1.mp3",
+			"Stage2"             :"Stage2.mp3",
+			"StageSelect"        :"StageSelect.mp3"
+		}
+	],
+	"SE" :
+	[
+		{
+			"BoomerangHit"       : "打撃1.mp3",
+			"Explosion"          : "打撃3.mp3",
+			"AttackHit"          :"打撃4.mp3",
+			"Landing"                :"打撃6.mp3"
+		}
+
+	]
+	
+}

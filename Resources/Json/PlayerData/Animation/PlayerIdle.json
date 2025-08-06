@@ -1,0 +1,53 @@
+{
+	"AnimationType" : "Idle",
+	"AnimationTime"  : 4.0,
+	"AnimationSpeed" : 1.0,
+	"Loop": true,
+	"KeyFrame" :
+	[
+		{
+			"FreamTime" : 1.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftArm",
+					"Rotation" :{ 
+						"x" : 5.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArm",
+					"Rotation" :{ 
+						"x" : -5.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		},
+		{
+			"FreamTime" : 3.0 ,
+			"Parts" : 
+			[
+				{
+					"PartName" : "LeftArm",
+					"Rotation" :{ 
+						"x" : -5.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				},
+				{
+					"PartName" : "RightArm",
+					"Rotation" :{ 
+						"x" : 5.0,
+						"y" : 0.0,
+						"z" : 0.0
+					}
+				}
+			]
+		}
+	]
+}
